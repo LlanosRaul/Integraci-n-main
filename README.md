@@ -29,9 +29,9 @@ FERREMAS está comprometida con la expansión y evolución constante para ofrece
 <h3 align="left" style="font-size: 21px;">Integrantes del Equipo:</h3>
 <br>
 
-- **👨‍💻 Raul Llanos / [LinkedIn](https://www.linkedin.com/in/raulllanos/)**
-- **👨‍💻 Matias Muñoz / [LinkedIn](https://www.linkedin.com/in/matiasmunoz/)**
-- **👨‍💻 Felipe Vaccaro / [LinkedIn](https://www.linkedin.com/in/felipevaccaro/)**
+- **👨‍💻 Raul Llanos / [LinkedIn](https://www.linkedin.com/in/raul-patricio-llanos-vergara-b22aa1252)**
+- **👨‍💻 Matias Muñoz / [LinkedIn](https://www.linkedin.com/in/matias-ignacio-munoz-lillo-69b253250/)**
+- **👨‍💻 Felipe Vaccaro / [LinkedIn](https://www.linkedin.com/in/felipe-vaccaro-miranda-2b1a541ba/)**
 <br>
 
 <!-- FIN SECCION NUESTRO EQUIPO -->
