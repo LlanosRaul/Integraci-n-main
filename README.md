@@ -45,12 +45,12 @@ FERREMAS está comprometida con la expansión y evolución constante para ofrece
 <!-- SECCION ARQUITECTURA UTILIZADA -->
 
 <h1 align="center">Arquitectura Utilizada</h1>
-<br>
 
 <p>Para nuestro proyecto se basa en la arquitectura MVC (Modelo-Vista-Controlador), utilizando como framework principal Django, en conjunto con Python para la la lógica de negocio y sus controladores. Con esta arquitectura nos separa la lógica de negocio, controladores y las vistas. La persistencia de datos se gestiona a través de MySQL, integrando Django ORM para facilitar la interacción con la base de datos de manera eficiente.</p>
 
 <!-- FIN SECCION ARQUITECTURA UTILIZADA -->
 
+<br>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
@@ -85,6 +85,7 @@ FERREMAS está comprometida con la expansión y evolución constante para ofrece
   </a>
 </p>
 
+<br/>
 
 <!-- FIN SECCION TECNOLOGIAS UTILIZADAS -->
 
@@ -111,11 +112,11 @@ Asegúrate de tener instaladas las siguientes herramientas:
 
 ### 1. Abrir Visual Studio Code
 
-Navega a la raíz de la aplicación y abre Visual Studio Code desde allí.
+- Navega a la raíz de la aplicación y abre Visual Studio Code desde allí.
 
 ### 2. Instalar dependencias
 
-Ejecuta el siguiente comando para instalar las herramientas necesarias para el proyecto:
+- Ejecuta el siguiente comando para instalar las herramientas necesarias para el proyecto:
 
 ```bash
 pip install -r requirements.txt
@@ -129,31 +130,35 @@ env\Scripts\activate
 
 ### 3. Iniciar MySQL con XAMPP
 
-Abre XAMPP y haz clic en "Start" en el módulo de MySQL.
+- Abre XAMPP y haz clic en "Start" en el módulo de MySQL.
 
 ### 4. Conectar MySQL Workbench con XAMPP
 
-Abre MySQL Workbench y crea una nueva conexión para conectarla con el servidor MySQL iniciado por XAMPP.
+- Abre MySQL Workbench y crea una nueva conexión para conectarla con el servidor MySQL iniciado por XAMPP.
 
 ### 5. Crear una nueva base de datos en MySQL Workbench
 
-Una vez conectado, crea una nueva base de datos donde se almacenarán las tablas del proyecto.
+- Una vez conectado, crea una nueva base de datos donde se almacenarán las tablas del proyecto.
 
 ### 6. Actualizar la base de datos
 
-Haz un "Refresh" en MySQL Workbench para asegurarte de que la nueva base de datos aparezca en la lista de bases de datos.
+- Haz un "Refresh" en MySQL Workbench para asegurarte de que la nueva base de datos aparezca en la lista de bases de datos.
 
 ### 7. Cargar el script de categoría en MySQL Workbench
 
-En Visual Studio Code, abre el archivo de script de categoría que se encuentra en la carpeta Scripts. Copia el contenido completo del archivo (CTRL+A, CTRL+C). Pega el script en el área de consulta (Query) de MySQL Workbench y ejecútalo para crear la tabla producto_categoria.
+- En Visual Studio Code, abre el archivo de script de categoría que se encuentra en la carpeta Scripts. 
+- Copia el contenido completo del archivo (CTRL+A, CTRL+C). 
+- Pega el script en el área de consulta (Query) de MySQL Workbench y ejecútalo para crear la tabla producto_categoria.
 
 ### 8. Cargar el script de productos en MySQL Workbench
 
-En Visual Studio Code, abre el archivo de script de productos que se encuentra en la carpeta Scripts. Copia el contenido completo del archivo (CTRL+A, CTRL+C). Pega el script en el área de consulta (Query) de MySQL Workbench y ejecútalo para crear la tabla producto_producto.
+- En Visual Studio Code, abre el archivo de script de productos que se encuentra en la carpeta Scripts. 
+- Copia el contenido completo del archivo (CTRL+A, CTRL+C). 
+- Pega el script en el área de consulta (Query) de MySQL Workbench y ejecútalo para crear la tabla producto_producto.
 
 ### 9. Migrar la base de datos con Django
 
-Abre la consola desde la raíz de la aplicación y ejecuta el siguiente comando para aplicar las migraciones y poblar las tablas:
+- Abre la consola desde la raíz de la aplicación y ejecuta el siguiente comando para aplicar las migraciones y poblar las tablas:
 
 ```bash
 python manage.py migrate
@@ -161,7 +166,7 @@ python manage.py migrate
 
 ### 10. Iniciar el servidor Django
 
-Abre la consola y ejecuta el siguiente comando para iniciar el servidor:
+- Abre la consola y ejecuta el siguiente comando para iniciar el servidor:
 
 ```bash
 python manage.py runserver
@@ -223,4 +228,5 @@ python manage.py runserver
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
 
