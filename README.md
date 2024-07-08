@@ -36,6 +36,142 @@ FERREMAS está comprometida con la expansión y evolución constante para ofrece
 
 <!-- FIN SECCION NUESTRO EQUIPO -->
 
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+
+<!-- SECCION ARQUITECTURA UTILIZADA -->
+
+<h1 align="center">Arquitectura Utilizada</h1>
+<br>
+
+<p>Para nuestro proyecto se basa en la arquitectura MVC (Modelo-Vista-Controlador), utilizando como framework principal Django, en conjunto con Python para la la lógica de negocio y sus controladores. Con esta arquitectura nos separa la lógica de negocio, controladores y las vistas. La persistencia de datos se gestiona a través de MySQL, integrando Django ORM para facilitar la interacción con la base de datos de manera eficiente.</p>
+
+<!-- FIN SECCION ARQUITECTURA UTILIZADA -->
+
+<br><br>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+
+<!-- SECCION TECNOLOGIAS UTILIZADAS -->
+
+<h3 align="center" style="font-size: 24px;">Lenguajes / Frameworks:</h3>
+<br>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,python,django,js,css" />
+  </a>
+</p>
+
+<h3 align="center" style="font-size: 24px;">Tecnologías Utilizadas:</h3>
+<br>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,vscode" />
+  </a>
+      <img src="https://cdn2.iconfinder.com/data/icons/pack1-baco-flurry-icons-style/512/XAMPP.png" style="width: 50px; height: 50px;" />
+</p>
+
+<h3 align="center" style="font-size: 24px;">Base de Datos Utilizada:</h3>
+<br>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mysql" style="width: 50px; height: 50px;" />
+  </a>
+</p>
+
+<br/>
+
+<!-- FIN SECCION TECNOLOGIAS UTILIZADAS -->
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+
+<!-- SECCION PASOS DE IMPLEMENTACION -->
+
+# Pasos de Implementación
+
+## Pre-requisitos
+
+Asegúrate de tener instaladas las siguientes herramientas:
+
+- Visual Studio Code
+- Python
+- Setuptools actualizado
+- Django
+- XAMPP
+- MySQL Workbench 8.0 CE
+
+## Paso a Paso
+
+### 1. Abrir Visual Studio Code
+
+Navega a la raíz de la aplicación y abre Visual Studio Code desde allí.
+
+### 2. Instalar dependencias
+
+Ejecuta el siguiente comando para instalar las herramientas necesarias para el proyecto:
+
+```bash
+pip install -r requirements.txt
+```
+
+(Opcional) Puedes usar un entorno virtual ejecutando:
+
+```bash
+env\Scripts\activate
+```
+
+### 3. Iniciar MySQL con XAMPP
+
+Abre XAMPP y haz clic en "Start" en el módulo de MySQL.
+
+### 4. Conectar MySQL Workbench con XAMPP
+
+Abre MySQL Workbench y crea una nueva conexión para conectarla con el servidor MySQL iniciado por XAMPP.
+
+### 5. Crear una nueva base de datos en MySQL Workbench
+
+Una vez conectado, crea una nueva base de datos donde se almacenarán las tablas del proyecto.
+
+### 6. Actualizar la base de datos
+
+Haz un "Refresh" en MySQL Workbench para asegurarte de que la nueva base de datos aparezca en la lista de bases de datos.
+
+### 7. Cargar el script de categoría en MySQL Workbench
+
+En Visual Studio Code, abre el archivo de script de categoría que se encuentra en la carpeta Scripts. Copia el contenido completo del archivo (CTRL+A, CTRL+C). Pega el script en el área de consulta (Query) de MySQL Workbench y ejecútalo para crear la tabla producto_categoria.
+
+### 8. Cargar el script de productos en MySQL Workbench
+
+En Visual Studio Code, abre el archivo de script de productos que se encuentra en la carpeta Scripts. Copia el contenido completo del archivo (CTRL+A, CTRL+C). Pega el script en el área de consulta (Query) de MySQL Workbench y ejecútalo para crear la tabla producto_producto.
+
+### 9. Migrar la base de datos con Django
+
+Abre la consola desde la raíz de la aplicación y ejecuta el siguiente comando para aplicar las migraciones y poblar las tablas:
+
+```bash
+python manage.py migrate
+```
+
+### 10. Iniciar el servidor Django
+
+Abre la consola y ejecuta el siguiente comando para iniciar el servidor:
+
+```bash
+python manage.py runserver
+```
+<br>
+<!-- FIN SECCION PASOS DE IMPLEMENTACION -->
+<br>
+
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
@@ -73,32 +209,10 @@ FERREMAS está comprometida con la expansión y evolución constante para ofrece
 
 <!-- FIN SECCION ACTIVIDAD DE LOS INTEGRANTES -->
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<!-- SECCION TECNOLOGIAS UTILIZADAS -->
-
-<h3 align="center" style="font-size: 24px;">Tecnologías Utilizadas:</h3>
-<br>
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,django,python,js,css" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mysql,git,github,vscode" />
-  </a>
-</p>
-
-<br/>
-
-<!-- FIN SECCION TECNOLOGIAS UTILIZADAS -->
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
 
 <!-- SECCION LICENCIA -->
 
@@ -111,3 +225,4 @@ FERREMAS está comprometida con la expansión y evolución constante para ofrece
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
