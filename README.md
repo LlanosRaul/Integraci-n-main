@@ -86,7 +86,6 @@ FERREMAS está comprometida con la expansión y evolución constante para ofrece
   </a>
 </p>
 
-<br/>
 
 <!-- FIN SECCION TECNOLOGIAS UTILIZADAS -->
 
