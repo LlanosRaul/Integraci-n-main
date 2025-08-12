@@ -196,7 +196,7 @@ python manage.py runserver
 
 <p align="center">
   <a href="https://github.com/Matiaasmz">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KEKEKEKEW&theme=radical" alt="Matias Muñoz's GitHub Contribution"/>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Matiaasmz&theme=radical" alt="Matias Muñoz's GitHub Contribution"/>
   </a>
 </p>
 
